@@ -1,5 +1,5 @@
 ::Refinery::Application.routes.draw do
-  scope(:path => 'blog/sistema-para-locadoras-de-veiculos', :module => 'blog') do
+  scope(:path => 'sistema-para-locadora-de-veiculos/blog', :module => 'blog') do
     root :to => 'posts#index', :as => 'blog_root'
     match 'feed.rss', :to => 'posts#index', :as => 'blog_rss_feed', :defaults => {:format => "rss"}
     match ':id', :to => 'posts#show', :as => 'blog_post'
