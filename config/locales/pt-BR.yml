@@ -1,7 +1,7 @@
 pt-BR:
   plugins:
     refinerycms_blog:
-      title: Blog
+      title: Blog do SGLOC
   activerecord:
     attributes:
       blog_post:
